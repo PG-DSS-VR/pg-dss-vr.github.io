@@ -36,11 +36,11 @@ body {
 
 .item .image img {
   border-radius: 7px;
-  height: 100px;
-  width: 100px;
+  height: 170px;
+  width: 300px;
   margin: auto;
   border: 0.35em solid #1d2129;
-  object-fit:fill;
+  object-fit:scale-down;
   
 }
 
@@ -68,6 +68,7 @@ body {
 .item .details>div h1 {
   color: #1d2129;
   font-size: 1.4em;
+  font-family: poppins;
   margin: 0;
   padding: 0 0 0.5em 0;
   letter-spacing: 0.1em;
@@ -77,6 +78,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 150%;
+  font-family: poppins;
+  font-size: 1.0em;
 }
 
 .item .details::before {
