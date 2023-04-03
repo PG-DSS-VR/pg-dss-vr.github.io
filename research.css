@@ -8,12 +8,14 @@ body {
 .item {
   display: flex;
   max-width: 10000px;
-  margin: 0 auto;
+  margin: auto;
+  align-content: center;
+  align-items: center;
 }
 
 .item .image {
   padding: 1em 2em;
-  
+  align-self: center;
 }
 
 .item .image>div {
@@ -36,8 +38,8 @@ body {
 
 .item .image img {
   border-radius: 7px;
-  height: 170px;
-  width: 300px;
+  /* height: 170px; */
+  width: 226.6px;
   margin: auto;
   border: 0.35em solid #1d2129;
   object-fit:scale-down;
@@ -56,6 +58,7 @@ body {
   position: relative;
   flex-grow: 1;
   color: #1d2129;
+  align-self: center;
 }
 
 .item .details>div {
