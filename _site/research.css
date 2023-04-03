@@ -7,7 +7,7 @@ body {
 
 .item {
   display: flex;
-  max-width: 10000px;
+  max-width: 100000px;
   margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ body {
   width: 300px;
   margin: auto;
   border: 0.35em solid #1d2129;
-  object-fit:scale-down;
+  object-fit:fill;
   
 }
 
