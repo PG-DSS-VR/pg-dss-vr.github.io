@@ -76,7 +76,7 @@ body {
 .main-timeline .circle{
     width: 180px;
     height: 180px;
-    border-radius: 50%;
+    border-radius: 7px;
     background: #000000;
     border: 8px solid rgb(0, 0, 0);
     float: left;
@@ -128,7 +128,7 @@ body {
 .main-timeline .circle .img{
     vertical-align: initial;
     object-fit:cover;
-    border-radius: 50%;
+    border-radius: 7px;
     height: 160px;
     width: 160px;
     

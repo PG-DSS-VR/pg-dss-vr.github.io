@@ -35,11 +35,13 @@ body {
 }
 
 .item .image img {
-  border-radius: 70%;
-  height: 5em;
+  border-radius: 7px;
+  height: 100px;
+  width: 100px;
   margin: auto;
-  border: 0.35em solid #e29634;
-  object-fit: fill;
+  border: 0.35em solid #1d2129;
+  object-fit:fill;
+  
 }
 
 /* .item .image span {
@@ -64,7 +66,7 @@ body {
 }
 
 .item .details>div h1 {
-  color: #e29634;
+  color: #1d2129;
   font-size: 1.4em;
   margin: 0;
   padding: 0 0 0.5em 0;
