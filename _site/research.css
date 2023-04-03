@@ -1,5 +1,5 @@
 body {
-  background: #5D696E;
+  background: #f1ebe5;
   color: #ffffff;
   font-family: arial, sans-serif;
   
@@ -38,7 +38,7 @@ body {
   border-radius: 70%;
   height: 5em;
   margin: auto;
-  border: 0.35em solid #5ed3bf;
+  border: 0.35em solid #e29634;
   object-fit: fill;
 }
 
@@ -53,6 +53,7 @@ body {
 .item .details {
   position: relative;
   flex-grow: 1;
+  color: #1d2129;
 }
 
 .item .details>div {
@@ -63,7 +64,7 @@ body {
 }
 
 .item .details>div h1 {
-  color: #5ed3bf;
+  color: #e29634;
   font-size: 1.4em;
   margin: 0;
   padding: 0 0 0.5em 0;
